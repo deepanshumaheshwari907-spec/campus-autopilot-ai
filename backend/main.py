@@ -1,5 +1,11 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from app.db.database import engine, Base
+from app.models import user
+from app.api import auth
+
+# Database tables auto-create karo
+Base.metadata.create_all(bind=engine)
 
 app = FastAPI(
     title="Campus Autopilot AI",
@@ -7,7 +13,7 @@ app = FastAPI(
     version="1.0.0"
 )
 
-# CORS — Frontend (Next.js) ko Backend se baat karne deta hai
+# CORS
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:3000"],
@@ -15,6 +21,9 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+# Routes
+app.include_router(auth.router)
 
 @app.get("/")
 def root():
