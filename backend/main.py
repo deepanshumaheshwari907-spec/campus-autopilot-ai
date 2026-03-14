@@ -1,8 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.db.database import engine, Base
-from app.models import user
-from app.api import auth
+from app.models import user, student
+from app.api import auth, students
 
 # Database tables auto-create karo
 Base.metadata.create_all(bind=engine)
@@ -24,6 +24,7 @@ app.add_middleware(
 
 # Routes
 app.include_router(auth.router)
+app.include_router(students.router)
 
 @app.get("/")
 def root():
