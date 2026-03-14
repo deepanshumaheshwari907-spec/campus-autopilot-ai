@@ -1,0 +1,22 @@
+Campus Autopilot AI - Test Document
+
+Machine Learning Syllabus:
+Unit 1: Introduction to Machine Learning - Supervised, Unsupervised Learning
+Unit 2: Linear Regression and Logistic Regression
+Unit 3: Decision Trees and Random Forests
+Unit 4: Neural Networks and Deep Learning
+Unit 5: Model Evaluation and Deployment
+
+Hostel Rules:
+1. Students must return to hostel by 10 PM
+2. Visitors allowed only between 4 PM to 7 PM
+3. No loud music after 11 PM
+4. Mess timing: Breakfast 7-9 AM, Lunch 12-2 PM, Dinner 7-9 PM
+
+Placement Statistics 2024:
+Total Students: 450
+Placed Students: 380
+Placement Percentage: 84%
+Highest Package: 45 LPA
+Average Package: 8.5 LPA
+Top Recruiters: Google, Microsoft, Amazon, TCS, Infosys

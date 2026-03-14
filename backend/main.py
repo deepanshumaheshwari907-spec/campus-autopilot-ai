@@ -4,6 +4,7 @@ from app.db.database import engine, Base
 from app.models import user, student
 from app.api import auth, students
 from app.api import risk
+from app.api import rag
 
 
 # Database tables auto-create karo
@@ -28,6 +29,7 @@ app.add_middleware(
 app.include_router(auth.router)
 app.include_router(students.router)
 app.include_router(risk.router)
+app.include_router(rag.router)
 
 
 @app.get("/")
