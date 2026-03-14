@@ -81,6 +81,9 @@ def analyze_batch_risk(students: List[Dict]) -> List[Dict]:
             "student_id": student.get("id"),
             "roll_number": student.get("roll_number"),
             "full_name": student.get("full_name"),
+            "attendance_percentage": student.get("attendance_percentage"),
+            "cgpa": student.get("cgpa"),
+            "backlogs": student.get("backlogs"),
             **risk
         })
 
