@@ -5,6 +5,7 @@ from app.models import user, student
 from app.api import auth, students
 from app.api import risk
 from app.api import rag
+from app.api import digital_twin
 
 
 # Database tables auto-create karo
@@ -30,6 +31,7 @@ app.include_router(auth.router)
 app.include_router(students.router)
 app.include_router(risk.router)
 app.include_router(rag.router)
+app.include_router(digital_twin.router)
 
 
 @app.get("/")
