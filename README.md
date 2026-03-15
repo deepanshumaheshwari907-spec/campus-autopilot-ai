@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=3B82F6&center=true&vCenter=true&width=700&lines=🚀+Campus+Autopilot+AI;AI+Operating+System+for+Colleges; Detect+Risk.+Analyze+Resumes.+Automate+Ops." alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=3B82F6&center=true&vCenter=true&width=700&lines=🚀+Campus+Autopilot+AI;AI+Operating+System+for+Colleges;Detect+Risk.+Analyze+Resumes.+Automate+Ops." alt="Typing SVG" />
 
 <br/>
 
