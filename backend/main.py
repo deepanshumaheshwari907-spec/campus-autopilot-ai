@@ -6,7 +6,7 @@ from app.api import auth, students
 from app.api import risk
 from app.api import rag
 from app.api import digital_twin
-
+from app.api import resume
 
 # Database tables auto-create karo
 Base.metadata.create_all(bind=engine)
@@ -32,6 +32,8 @@ app.include_router(students.router)
 app.include_router(risk.router)
 app.include_router(rag.router)
 app.include_router(digital_twin.router)
+app.include_router(resume.router)
+
 
 
 @app.get("/")
