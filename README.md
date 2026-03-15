@@ -264,7 +264,7 @@ campus-autopilot-ai/
 | **Name** | Deepanshu Maheshwari |
 | **College** | IIST Indore |
 | **Year** | 3rd Year Engineering |
-| **Domain** | Full Stack + AI/ML |
+| **Domain** | Full Stack + AI/ML Engineer |
 | **GitHub** | [@deepanshumaheshwari907-spec](https://github.com/deepanshumaheshwari907-spec) |
 
 > *"Built this entire platform solo — from database design to AI pipelines to frontend UI. Every line of code, every bug, every fix — all done independently."*
